@@ -90,18 +90,17 @@ Caso queira destruir a máquina virtual (o conteúdo do www não será excluido)
 
 Adicionar as linhas abaixo 
 
-- 192.168.33.10 phpmyadmin.dev
 - 192.168.33.10 local.dev
-- 192.168.33.10 projeto.com.br
-- 192.168.33.10 www.projeto.com.br
+- 192.168.33.10 phpmyadmin.dev
+- 192.168.33.10 laravel.dev
 
 4°) (Opicional) Acessar no navegador da sua maquina
 
-- http://phpmyadmin.dev
-
 - http://local.dev
 
-- http://projeto.com.br
+- http://phpmyadmin.dev
+
+- http://laravel.dev
 
 5°) (Opicional) Acessar seu servidor via SSH, abra o Git Bash
 

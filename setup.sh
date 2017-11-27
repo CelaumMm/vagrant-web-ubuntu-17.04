@@ -156,8 +156,8 @@ sudo a2enmod rewrite
 sudo cp -r -f /vagrant/config/etc/apache2/. /etc/apache2/.
 
 # Criando o diretório de projeto.com.br
-# sudo mkdir -p /var/www/html/projeto.com.br/{public_html/,logs/}
-sudo mkdir /var/www/html/projeto.com.br/
+# sudo mkdir -p /var/www/projeto.com.br/{public_html/,logs/}
+# sudo mkdir /var/www/projeto.com.br/
 
 # Para remover diretorio com arquivos dentro utilize 
 # rm -rf diretorio
@@ -165,7 +165,7 @@ sudo mkdir /var/www/html/projeto.com.br/
 echo "----------------------------"
 echo "--- Reiniciando o Apache ---"
 echo "----------------------------"
-sudo systemctl reload apache2
+sudo systemctl restart apache2
 echo ""
 
 echo "--------------------------------------------------"
